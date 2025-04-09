@@ -1,0 +1,129 @@
+<html lang="en">
+<head>
+  <title>My Web Page(web dev. week 2 assignment)</title>
+</head>
+<body>
+
+  <!-- Ordered List with Roman Numerals -->
+<h2>My Favorite Things</h2>
+<ol type="I" style="list-style-position: inside; padding-left: 10px; margin: 20;">
+  <li> Watching movies and anime</li>
+  <li>Coding</li>
+  <li>Listening to Music</li>
+  <li>Gaming</li>
+  <li>Photography/Videography</li>
+</ol>
+
+
+  <!-- External Image from Pexels -->
+  <h2>Two cute puppies</h2>
+  <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=600.jpeg" 
+       alt="Puppies from Pexels" 
+       width="500">
+
+  <!-- Contacts Table -->
+  <h2>Contact List</h2>
+  <table border="1" cellpadding="10">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Mobile</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John Doe</td>
+        <td>123 Main St</td>
+        <td>08012345678</td>
+        <td>john_doe254@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Jane Smith</td>
+        <td>456 Oak Rd</td>
+        <td>08023456789</td>
+        <td>O.jane798@yahoo.com</td>
+      </tr>
+      <tr>
+        <td>Ali Yusuf</td>
+        <td>12 Unity Ave</td>
+        <td>08034567890</td>
+        <td>ali48@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Grace Brown</td>
+        <td>5 Sunshine Lane</td>
+        <td>08045678901</td>
+        <td>grace@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Michael Lee</td>
+        <td>98 Hilltop Way</td>
+        <td>08056789012</td>
+        <td>michael@gmail.com</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Registration Form -->
+  <h2>Registration Form</h2>
+  <form>
+    <!-- Name Field -->
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter full name" required><br><br>
+
+    <!-- Email Field -->
+    <label for="email">Email Address:</label><br>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+    <!-- Password Field -->
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" minlenght="10" maxlenght="18" placeholder="Create a password" required><br>
+    <small style="color: rgb(73, 67, 132);">Minimum 10 characters</small><br><br>
+   
+    <!-- Date of Birth -->
+    <label for="dob">Date of Birth:</label><br>
+    <input type="Date" id="dob" name="dob" required><br><br>
+
+    <!-- Dropdown -->
+    <label for="course">Select a Course:</label><br>
+    <select id="course" name="course" required>
+      <option value="">--Choose a course--</option>
+      <option value="web">Web Development</option>
+      <option value="graphics">Graphic Design</option>
+      <option value="ai">AI & Machine Learning</option>
+      <option value="data">Data Science</option>
+      <option value="cyber">Cyber Security</option>
+      <option value="cloud">Cloud Computing</option>
+      <option value="mobile">Mobile App Development</option>
+      <option value="game">Game Development</option>
+      <option value="blockchain">Blockchain Technology</option>
+    </select><br><br>
+
+    <!-- Radio Buttons -->
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label><br>
+
+    <input type="radio" id="female" name="gender" value="female" required>
+    <label for="female">Female</label><br><br>
+
+    <!-- Checkboxes -->
+    <label>Skills:</label><br>
+    <input type="checkbox" id="html" name="skills" value="HTML">
+    <label for="html">HTML</label><br>
+
+    <input type="checkbox" id="css" name="skills" value="CSS">
+    <label for="css">CSS</label><br>
+
+    <input type="checkbox" id="js" name="skills" value="JavaScript">
+    <label for="js">JavaScript</label><br><br>
+
+
+    <!-- Submit Button -->
+    <input type="submit" value="Register">
+  </form>
+
+</body>
+</html>
